@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Product Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title>VLC Media Player</title>
+    </head>
+  <body>
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+<div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src="https://jagtapshubham.github.io/hosted-assest/Product-Landing-page/vlc.png"
+        alt="vlc logo"
+      />
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how-it-works">How to Use</a></li>
+        <li><a class="nav-link" href="#pricing">Downloads</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+
+  <section id="hero">
+    <h2>VLC media player is a free and open-source, portable, cross-platform media player software</h2>
+    <form id="form">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email for VLC updates"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+  </section>
+
+  <div class="container">
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-microchip"></i></i></div>
+        <div class="desc">
+          <h2>Fast Hardware Decoding</h2>
+          <p>
+           VLC has hardware decoding on most platforms. It supports 0-copy on the GPU and can fallback on software when required.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-file-video"></i></div>
+        <div class="desc">
+          <h2>Plays all Format</h2>
+          <p>
+            All types of Videos,  Music, Text file, etc
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+            <i class="fa fa-3x fa-ad"></i>
+        </div>
+        <div class="desc">
+          <h2>Advanced formats</h2>
+          <p>
+            Input Media, Input Formats, Miscellaneous.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works">
+      <iframe
+        id="video"
+        height="315"
+        src="https://www.youtube.com/embed/2Rqg3pqiizE"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="pricing">
+      <div class="product" id="tenor">
+        <div class="level"><i class="fab fa-windows fa-2x"></i></div>
+        <h2>Windows Requirement</h2>
+        <ol>
+          <li>VLC runs on all versions of Windows, from Windows XP SP3 to the last version of Windows 10.</li>
+        </ol>
+        <form id="form" action="https://get.videolan.org/vlc/3.0.12/win32/vlc-3.0.12-win32.exe">
+        <button class="btn">Download</button>
+      </div>
+        </form>
+      <div class="product" id="bass">
+        <div class="level"><i class="fab fa-apple fa-2x"></i></div>
+        <h2>Mac OS X version</h2>
+        <ol>
+          <li>VLC media player requires Mac OS X 10.7.5 or later.</li>
+          <li>Previous devices are supported by older releases.</li>
+        </ol>
+        <form id="form" action="https://get.videolan.org/vlc/3.0.12/macosx/vlc-3.0.12-intel64.dmg">
+        <button class="btn" >Download</button>
+          </form>
+      </div>
+      <div class="product" id="valve">
+        <div class="level"><i class="fab fa-ubuntu fa-2x"></i></div>
+        <h2>Supported releases</h2>
+        <ol>
+          <li>Ubuntu 18.04 “Bionic Beaver.”</li>
+          <li>Ubuntu 16.04 “Xenial Xerus.”</li>
+          <h3>Installation by Command line way.</h3>
+          <li>$ sudo snap install vlc</li>
+        </ol>
+        <form id="form" action="snap://vlc">
+        <button class="btn">Download</button>
+          </form>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2021, VLC media player </span>
+    </footer>
+  </div>
+</div>
+  
+  </body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
